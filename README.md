@@ -1,5 +1,4 @@
 # Fundamental-Patterns
-A C# example with some usual patterns
 
 C# implementations of some fundamental patterns.
 
