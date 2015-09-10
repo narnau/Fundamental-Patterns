@@ -41,17 +41,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Memento\CareTaker.cs" />
+    <Compile Include="Memento\CareTaker.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Memento\Memento.cs" />
-    <Compile Include="Memento\Originator.cs" />
+    <Compile Include="Memento\Originator.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Observer\ConcreteObserverB.cs" />
     <Compile Include="Observer\ConcreteObserverA.cs" />
     <Compile Include="Observer\IObserver.cs" />
-    <Compile Include="Observer\ISubject.cs" />
-    <Compile Include="Observer\MainObserverProgram.cs" />
+    <Compile Include="Observer\ISubject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Observer\MainObserverProgram.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Observer\Subject.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Observer\SubjectEvent.cs" />
-    <Compile Include="Observer\Subject.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Program.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
