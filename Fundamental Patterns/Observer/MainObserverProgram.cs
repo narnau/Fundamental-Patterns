@@ -34,7 +34,7 @@ namespace Fundamental_Patterns.Observer
             Console.WriteLine();
             this.ConcreteSubject1.State = "State 1";
             this.ConcreteSubject2.State = "State 2";
-            Console.ReadLine();
+            Console.WriteLine();
         }
         
 

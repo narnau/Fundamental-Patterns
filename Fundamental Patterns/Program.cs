@@ -1,4 +1,5 @@
-﻿using Fundamental_Patterns.Memento;
+﻿using Fundamental_Patterns.Chain_of_Responsability;
+using Fundamental_Patterns.Memento;
 using Fundamental_Patterns.Observer;
 using System;
 using System.Collections.Generic;
@@ -19,6 +20,12 @@ namespace Fundamental_Patterns
             //Observer pattern
             MainObserverProgram MainObserverProgram = new MainObserverProgram();
             MainObserverProgram.Run();
+
+            //Chain of responsability pattern
+            MainProgramCR MainProgramCR = new MainProgramCR();
+            MainProgramCR.Run();
+
+            Console.ReadLine();
         }
     }
 }

@@ -30,7 +30,7 @@ namespace Fundamental_Patterns.Memento
 
             this.OriginalObject.UndoState(this.StateMemory.Take(1).FirstOrDefault<Memento>());
             var state = this.OriginalObject.Get();
-            Console.ReadLine();
+            Console.WriteLine();
         }
     }
 }
