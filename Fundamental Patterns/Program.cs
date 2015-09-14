@@ -21,7 +21,7 @@ namespace Fundamental_Patterns
             MainObserverProgram MainObserverProgram = new MainObserverProgram();
             MainObserverProgram.Run();
 
-            //Chain of responsability pattern
+            //Chain of responsability pattern 
             MainProgramCR MainProgramCR = new MainProgramCR();
             MainProgramCR.Run();
 
