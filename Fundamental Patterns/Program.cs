@@ -17,7 +17,7 @@ namespace Fundamental_Patterns
             CareTaker CareTaker = new CareTaker();
             CareTaker.Run();
 
-            //Observer pattern
+            //Observer pattern  
             MainObserverProgram MainObserverProgram = new MainObserverProgram();
             MainObserverProgram.Run();
 
