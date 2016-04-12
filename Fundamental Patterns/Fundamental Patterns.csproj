@@ -34,6 +34,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -41,6 +42,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Builder\HighSecurityUserBuilder.cs" />
+    <Compile Include="Builder\MainBuilderProgram.cs" />
+    <Compile Include="Builder\User.cs" />
+    <Compile Include="Builder\LowSecurityUserBuilder.cs" />
+    <Compile Include="Builder\UserBuilder.cs" />
+    <Compile Include="Builder\UserGenerator.cs" />
     <Compile Include="Chain of Responsability\BusCapacity.cs" />
     <Compile Include="Chain of Responsability\BikeCapacity.cs" />
     <Compile Include="Chain of Responsability\CarCapacity.cs" />

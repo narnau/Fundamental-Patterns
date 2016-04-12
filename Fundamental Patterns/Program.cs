@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using Fundamental_Patterns.Builder;
+
 namespace Fundamental_Patterns
 {
     class Program
@@ -17,13 +19,17 @@ namespace Fundamental_Patterns
             CareTaker CareTaker = new CareTaker();
             CareTaker.Run();
 
-            //Observer pattern  
+            // Observer pattern  
             MainObserverProgram MainObserverProgram = new MainObserverProgram();
             MainObserverProgram.Run();
 
-            //Chain of responsability pattern 
+            // Chain of responsability pattern 
             MainProgramCR MainProgramCR = new MainProgramCR();
             MainProgramCR.Run();
+
+            // Builder pattern
+            MainBuilderProgram MainBuilderProgram = new MainBuilderProgram();
+            MainBuilderProgram.Run();
 
             Console.ReadLine();
         }
