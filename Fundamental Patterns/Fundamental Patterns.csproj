@@ -42,10 +42,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Builder\HighSecurityUserBuilder.cs" />
+    <Compile Include="Builder\UserBuilders\HighSecurityUserBuilder.cs" />
     <Compile Include="Builder\MainBuilderProgram.cs" />
     <Compile Include="Builder\User.cs" />
-    <Compile Include="Builder\LowSecurityUserBuilder.cs" />
+    <Compile Include="Builder\UserBuilders\LowSecurityUserBuilder.cs" />
     <Compile Include="Builder\UserBuilder.cs" />
     <Compile Include="Builder\UserGenerator.cs" />
     <Compile Include="Chain of Responsability\BusCapacity.cs" />

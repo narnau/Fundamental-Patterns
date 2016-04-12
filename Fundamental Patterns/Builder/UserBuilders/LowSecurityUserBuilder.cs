@@ -7,12 +7,12 @@ using System.Web.Security;
 
 namespace Fundamental_Patterns.Builder
 {
-    public class HighSecurityUserBuilder : UserBuilder
+    public class LowSecurityUserBuilder : UserBuilder
     {
         public override void GeneratePassword()
         {
-            // Generate a new 12-character password with 2 non-alphanumeric character.
-            this.user.Password = Membership.GeneratePassword(12, 2);
+            // Generate a new 3-character password with 0 non-alphanumeric character.
+            this.user.Password = Membership.GeneratePassword(3, 0);
         }
     }
 }
