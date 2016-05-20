@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 using Fundamental_Patterns.Builder;
+using Fundamental_Patterns.Decorator;
 
 namespace Fundamental_Patterns
 {
@@ -16,20 +17,24 @@ namespace Fundamental_Patterns
         static void Main(string[] args)
         {
             // Memento pattern
-            CareTaker CareTaker = new CareTaker();
-            CareTaker.Run();
+            MainMementoProgram mainMementoProgram = new MainMementoProgram();
+            mainMementoProgram.Run();
 
             // Observer pattern  
             MainObserverProgram MainObserverProgram = new MainObserverProgram();
             MainObserverProgram.Run();
 
             // Chain of responsability pattern 
-            MainProgramCR MainProgramCR = new MainProgramCR();
-            MainProgramCR.Run();
+            MainChainOfResponsabilityProgram mainChainOfResponsabilityProgram = new MainChainOfResponsabilityProgram();
+            mainChainOfResponsabilityProgram.Run();
 
             // Builder pattern
             MainBuilderProgram MainBuilderProgram = new MainBuilderProgram();
             MainBuilderProgram.Run();
+
+            // Decorator pattern
+            MainDecoratorProgram mainDecoratorProgram = new MainDecoratorProgram();
+            mainDecoratorProgram.Run();
 
             Console.ReadLine();
         }

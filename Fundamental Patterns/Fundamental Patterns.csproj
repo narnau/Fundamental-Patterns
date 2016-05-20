@@ -51,9 +51,14 @@
     <Compile Include="Chain of Responsability\BusCapacity.cs" />
     <Compile Include="Chain of Responsability\BikeCapacity.cs" />
     <Compile Include="Chain of Responsability\CarCapacity.cs" />
-    <Compile Include="Chain of Responsability\MainProgramCR.cs" />
+    <Compile Include="Chain of Responsability\MainChainOfResponsabilityProgram.cs" />
     <Compile Include="Chain of Responsability\VehicleCapacity.cs" />
-    <Compile Include="Memento\CareTaker.cs">
+    <Compile Include="Decorator\MainDecoratorProgram.cs" />
+    <Compile Include="Decorator\TunnaDecorator.cs" />
+    <Compile Include="Decorator\Decorator.cs" />
+    <Compile Include="Decorator\IPizza.cs" />
+    <Compile Include="Decorator\ConcretePizza.cs" />
+    <Compile Include="Memento\MainMementoProgram.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Memento\Memento.cs" />

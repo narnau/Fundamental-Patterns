@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace Fundamental_Patterns.Memento
 {
-    public class CareTaker
+    public class MainMementoProgram
     {
         private IList<Memento> StateMemory;
         private Originator OriginalObject;
 
-        public CareTaker()
+        public MainMementoProgram()
         {
             this.StateMemory = new List<Memento>();
             this.OriginalObject = new Originator();

@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace Fundamental_Patterns.Chain_of_Responsability
 {
-    public class MainProgramCR
+    public class MainChainOfResponsabilityProgram
     {
         public VehicleCapacity BusCapacity;
         public VehicleCapacity CarCapacity;
         public VehicleCapacity BikeCapacity;
 
-        public MainProgramCR()
+        public MainChainOfResponsabilityProgram()
         {
             this.BikeCapacity = new BikeCapacity(1);
             this.CarCapacity = new CarCapacity(5);
