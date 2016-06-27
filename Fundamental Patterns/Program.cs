@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 using Fundamental_Patterns.Builder;
+using Fundamental_Patterns.Composite;
 using Fundamental_Patterns.Decorator;
 
 namespace Fundamental_Patterns
@@ -35,6 +36,10 @@ namespace Fundamental_Patterns
             // Decorator pattern
             MainDecoratorProgram mainDecoratorProgram = new MainDecoratorProgram();
             mainDecoratorProgram.Run();
+
+            //Composite pattern
+            MainCompositeProgram mainCompositeProgram = new MainCompositeProgram();
+            mainCompositeProgram.Run();
 
             Console.ReadLine();
         }

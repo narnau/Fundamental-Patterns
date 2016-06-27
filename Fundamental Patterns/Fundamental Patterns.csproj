@@ -53,6 +53,13 @@
     <Compile Include="Chain of Responsability\CarCapacity.cs" />
     <Compile Include="Chain of Responsability\MainChainOfResponsabilityProgram.cs" />
     <Compile Include="Chain of Responsability\VehicleCapacity.cs" />
+    <Compile Include="Composite\CompositeWindow.cs" />
+    <Compile Include="Composite\IComposite.cs" />
+    <Compile Include="Composite\ICompositeWindow.cs" />
+    <Compile Include="Composite\IUIWindow.cs" />
+    <Compile Include="Composite\IUIWindowCommands.cs" />
+    <Compile Include="Composite\MainCompositeProgram.cs" />
+    <Compile Include="Composite\UIWindow.cs" />
     <Compile Include="Decorator\MainDecoratorProgram.cs" />
     <Compile Include="Decorator\TunnaDecorator.cs" />
     <Compile Include="Decorator\Decorator.cs" />

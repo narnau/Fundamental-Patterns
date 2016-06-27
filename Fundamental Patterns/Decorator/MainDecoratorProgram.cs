@@ -8,19 +8,18 @@ namespace Fundamental_Patterns.Decorator
 {
     public class MainDecoratorProgram
     {
-        public MainDecoratorProgram()
-        {
-            
-        }
-
         public void Run()
         {
+            Console.WriteLine("Decorator pattern example:");
+            Console.WriteLine();
+
             var concretePizza = new ConcretePizza();
             Console.WriteLine("Pizza price {0}", concretePizza.GetPrice());
 
             var tunnaPizza = new TunnaDecorator(concretePizza);
             Console.WriteLine("Tunna pizza Price {0}", tunnaPizza.GetPrice());
-            
+            Console.WriteLine();
+
         }
     }
 }

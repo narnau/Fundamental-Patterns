@@ -24,7 +24,7 @@ namespace Fundamental_Patterns.Chain_of_Responsability
 
         public void Run()
         {
-            Console.WriteLine("Chain of Responsability pattern");
+            Console.WriteLine("Chain of Responsability pattern example:");
             Console.WriteLine();
 
             this.BikeCapacity.ProcessRequest(5);
